@@ -7,18 +7,8 @@ Created on 29/09/2014
 def getFibonacci(n):
     a = 0
     b = 1
-    f = True
-    
-    while n != 0 :
-        if f == True :
-            print (a)
-            print (b)
-            f = False
-        elif a == 1 & b != 2 :
-            print (a)
-
-        elif f == False:
-            print (b)
+    while n != -1 :
+        print (a)
         temp = a
         a = b
         b = b + temp    
